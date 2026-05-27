@@ -22,7 +22,7 @@ int main(){
     //x+=3; //Somma
     //x-=3; //Differenza
     //x*=3; //Prodotto
-    x/=3; //Rapporto
+    //x/=3; //Rapporto
 
     // In pratica, sono delle "scorciatoie" che rendono più semplici e pulito il codice.
     
