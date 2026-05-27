@@ -50,9 +50,9 @@ int main() {
     // fgets() include l'Invio ('\n') all'interno della stringa se c'e' spazio.
     // Usiamo strcspn per trovare la posizione di quel '\n' e lo sostituiamo con il terminatore nullo '\0'
     // per evitare andate a capo orfane quando stamperemo la stringa.
-    //name[strcspn(name, "\n")] = '\0';
+    name[strcspn(name, "\n")] = '\0';
 
     printf("Nome completo memorizzato nella RAM: %s\n", name);
-
+   
     return 0;
 }
