@@ -2,20 +2,18 @@
 #include <string.h>
 
 int main (){
-
     char gruppoSanguigno = '\0';
-    char cittàResidenza [30] = "";
+    char cittaResidenza [30] = "";
 
     printf("Inserisci il tuo gruppo sanguigno: ");
-    scanf("%c", &gruppoSanguigno);
-    getchar();
+    scanf("%c",&gruppoSanguigno);
+
     printf("Inserisci la tua città di residenza: ");
-    fgets(cittàResidenza, sizeof(cittàResidenza), stdin);
-    
+    fgets(cittaResidenza, sizeof(cittaResidenza),stdin);
+    getchar();
+    printf("Riepilogo:\nGruppo sanguigno: %c\nCittà Residenza: %s", gruppoSanguigno, cittaResidenza);
 
 
-    
-    cittàResidenza[strcspn(cittàResidenza, "\n")] = '\0';
-    printf("Riepilogo dati:\nGruppo Sanguigno = %c\nCittà Residenza = %s\n", gruppoSanguigno, cittàResidenza);
-    return 0;
+
+return 0;
 }
