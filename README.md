@@ -1,6 +1,6 @@
 # c-studies
 
-# Appunti di Programmazione in C - Percorso Pre-Universitario
+# Appunti di Programmazione in C 
 
 Raccolta di file di teoria ed esercizi pratici.
 
