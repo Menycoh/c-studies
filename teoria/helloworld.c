@@ -12,8 +12,7 @@ int main() {
     // '\n' è una sequenza di escape che indica il "Newline" (va a capo).
     printf("Hello World!\n"); 
     
-    // DEBUG NOTE: Qui mancava il '\n'. Senza di esso, l'eventuale stampa successiva
-    // si attaccherebbe sulla stessa riga nel terminale di Ubuntu.
+    
     printf("Pizza is really good!\n"); 
 
     /*
